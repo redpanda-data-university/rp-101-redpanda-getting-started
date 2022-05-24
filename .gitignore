@@ -1,0 +1,7 @@
+*.gradle/
+bin/
+build/
+gradle/
+gradlew*
+gradle.bat
+node_modules/
