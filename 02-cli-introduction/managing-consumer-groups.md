@@ -1,5 +1,5 @@
 ## Managing Consumer Groups
-This page contains a brief summary of the commands we explored in Chapter 3 of the [Hands-on Redpanda, Getting Started course][course-link]. Check out [the full course][course-link] for detailed explanations about the commands.
+This page contains a brief summary of the commands we explored in Chapter 2 of the [Hands-on Redpanda, Getting Started course][course-link]. Check out [the full course][course-link] for detailed explanations about the commands.
 
 [course-link]: https://university.redpanda.com/courses/hands-on-redpanda-getting-started
 
