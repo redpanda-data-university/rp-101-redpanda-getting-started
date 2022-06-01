@@ -5,3 +5,4 @@ gradle/
 gradlew*
 gradle.bat
 node_modules/
+target/
