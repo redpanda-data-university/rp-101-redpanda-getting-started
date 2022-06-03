@@ -1,5 +1,5 @@
 """
-A basic example of a Redpanda producer
+A basic example of a Redpanda consumer
 """
 import os
 from dataclasses import dataclass
@@ -18,7 +18,7 @@ class ConsumerConfig:
 class Consumer:
     def __init__(self, config: KafkaConsumer):
         self.client = KafkaConsumer(
-            "greetings",
+            config.topic,
             group_id=config.consumer_group,
             auto_offset_reset=config.auto_offset_reset,
             # add more configs here if you'd like
