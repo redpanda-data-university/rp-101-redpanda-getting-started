@@ -16,9 +16,10 @@ class ConsumerConfig:
 
 
 class Consumer:
-    def __init__(self, config: KafkaConsumer):
+    def __init__(self, config: ConsumerConfig):
         self.client = KafkaConsumer(
             config.topic,
+            bootstrap_servers=config.bootstrap_servers,
             group_id=config.consumer_group,
             auto_offset_reset=config.auto_offset_reset,
             # add more configs here if you'd like
